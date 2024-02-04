@@ -1,4 +1,4 @@
-package zerobase.weather1.config;
+package com.example.weather1.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

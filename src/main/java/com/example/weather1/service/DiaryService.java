@@ -1,5 +1,8 @@
-package zerobase.weather1.service;
+package com.example.weather1.service;
 
+import com.example.weather1.domain.DateWeather;
+import com.example.weather1.repository.DateWeatherRepository;
+import com.example.weather1.repository.DiaryRepository;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -11,12 +14,8 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Transactional;
-import zerobase.weather1.Weather1Application;
-import zerobase.weather1.domain.DateWeather;
-import zerobase.weather1.domain.Diary;
-import zerobase.weather1.error.InvalidDate;
-import zerobase.weather1.repository.DateWeatherRepository;
-import zerobase.weather1.repository.DiaryRepository;
+import com.example.weather1.Weather1Application;
+import com.example.weather1.domain.Diary;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

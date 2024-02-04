@@ -1,4 +1,4 @@
-package zerobase.weather1;
+package com.example.weather1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

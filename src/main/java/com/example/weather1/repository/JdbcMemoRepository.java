@@ -1,10 +1,10 @@
-package zerobase.weather1.repository;
+package com.example.weather1.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
-import zerobase.weather1.domain.Memo;
+import com.example.weather1.domain.Memo;
 
 import javax.sql.DataSource;
 import java.util.List;

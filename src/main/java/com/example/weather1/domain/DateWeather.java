@@ -1,4 +1,4 @@
-package zerobase.weather1.domain;
+package com.example.weather1.domain;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

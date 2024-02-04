@@ -1,4 +1,4 @@
-package zerobase.weather1.config;
+package com.example.weather1.config;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
